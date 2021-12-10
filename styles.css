@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url("https://64.media.tumblr.com/78fb982d0fea953d1f23e4ce7b25d527/72abac2a159e6cf0-e9/s500x750/2f62b6dead47a7cb2bad60c28a390028b0f1bd6c.gifv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', monospace;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    min-height: 100vh;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.countdown-container {
+    padding: 20px;
+    padding-bottom:30px;
+    display: flex;
+    background-color: rgba(29, 29, 29, 0.2);
+    background:  rgba(255, 255, 255, 0.09);
+    box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(1px);
+    border-radius: 1.2rem;
+
+}
+
+h1 {
+    top: -10rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%,rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.4) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-weight: 600;
+    margin-top: -10rem;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.nums {
+    color:rgba(255, 255, 255, 0.9);
+    font-family: 'DM Mono', sans-serif;
+    line-height: 1;
+    font-size: 6rem;
+    margin-top: 0;
+    margin: .7rem 2rem;
+}
+
+span{
+    color:rgba(255, 255, 255, 0.7);
+ }
+
+.cd-elem {
+    text-align: center;
+}
+
+.cd-elem span {
+    font-size: 1.2rem;
+}
