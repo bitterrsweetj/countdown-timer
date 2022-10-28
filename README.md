@@ -10,7 +10,7 @@ It is my first project with JavaScript. I wanted to make a site, that counts how
 
 ### Links
 
-- Live Site URL: [](https://bitterrsweetj.github.io/countdown-timer/)
+- Live Site URL: [here](https://bitterrsweetj.github.io/countdown-timer/)
 
 
 ## Author
